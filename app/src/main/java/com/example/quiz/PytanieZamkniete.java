@@ -17,9 +17,9 @@ abstract class Pytanie {
 
 public class PytanieZamkniete extends Pytanie
 {
-    private String odpA;
-    private String odpB;
-    private String odpC;
+    public String odpA;
+    public String odpB;
+    public String odpC;
     private char poprawnaOdp;
 
     PytanieZamkniete(String t, int np, String A, String B, String C, char pOdp) {
